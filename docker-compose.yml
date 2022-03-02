@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
   apitestingproject:
+    container_name: apitestingproject
     image: ${DOCKER_REGISTRY-}apitestingproject
     build:
       context: .
